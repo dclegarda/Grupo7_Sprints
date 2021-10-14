@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit User</title>
+
+<style>
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        height: 450;
+        width: 450;
+        text-align: center;
+        margin: 200px 100px 100px 50px
+        
+    }
+    
+    .colum{
+        float: left; 
+        width: 50%;
+        padding: 10px;
+        height: 200px;
+    } 
+    
+    
+</style>
+
+</head>
+<body>    
+    <div class="editUsers"> 
+        <div class="colum">
+            <textarea id="pic" placeholder="Photo"></textarea> <br>
+                <button input type="button" id="picture" onclick="alert('Edit Photo')"> Edit </button>            
+        </div>      
+        <div class="row">
+            <h1 id="edUser"> EDIT USER </h1>
+        </div>
+        <div class="row">
+            <div class="c5"> <input type="text" id="fn" placeholder="First Name">
+                <button input type="button" id="c2" onclick="alert('Edit User')"> Edit </button> </div>           
+        </div>
+        <br>
+        <div class="row">
+            <div class="c5"> <input type="text" id="ln" placeholder="Last Name">
+                <button input type="button" id="c2" onclick="alert('Edit User')"> Edit </button> </div>           
+        </div>
+        <br>
+        <div class="row">
+            <div class="c5"> <input type="text" id="ur" placeholder="User Roll"> 
+                <button input type="button" id="c2" onclick="alert('Edit User')"> Edit </button> </div>           
+        </div>
+        <br>
+        <div class="row">
+            <div class="c5"> <input type="text" id="email" placeholder="Email address">  
+                <button input type="button" id="c2" onclick="alert('Edit User')"> Edit </button> </div>           
+        </div>
+        <br>
+        <div class="row">
+            <div class="c5"> <input type="text" id="userID" placeholder="User ID">  
+                <button input type="button" id="c2" onclick="alert('Edit User')"> Edit </button> </div>           
+        </div>
+
+
+
+    </div>
+    <br>
+    <div class="row">
+        <p> Enter your Password <input type="password" placeholder="Enter your Password here"> </p>
+    </div>
+
+    <div>
+        <button input type="button" onclick="alert('Save Changes')">Save Changes</button>
+    </div>
+</body>
+</html>

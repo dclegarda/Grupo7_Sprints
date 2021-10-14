@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Productos</title>
+
+    <style>
+        table,
+        th,
+        td{
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;            
+        }
+        body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            margin: 43%;            
+        }
+        #btn{            
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="title"> <h1> PRODUCTS </h1> </div>
+    <div class="table">
+        <table class="myProd">
+            <tr>
+                <th>Produt Name</th>
+                <th>Select</th>
+            </tr>
+            <tr>
+                <td>Product One</td>
+                <td> <input name="btn" type="radio"> </td> 
+            </tr>
+            <tr>
+                <td>Product Two</td>                
+                <td> <input name="btn" type="radio"> </td>
+            </tr> 
+            <tr>
+                <td>Product Three</td>               
+                <td> <input name="btn" type="radio"> </td>
+            </tr> 
+            <tr>
+                <td>Product Four</td>
+                <td> <input name="btn" type="radio"> </td>
+            </tr>           
+        </table>
+    </div>
+    <br>
+    <div class="row">
+        <div class="btn">
+            <button input type="button" id="btn"> Description </button>
+            <button input type="button"  id="btn"> Edit </button> 
+            <button input type="button"  id="btn"> Delete </button>                 
+        </div>
+
+    </div>
+
+</body>
+</html>

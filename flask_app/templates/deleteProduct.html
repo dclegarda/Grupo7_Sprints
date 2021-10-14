@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Delete Product </title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="delProd">
+        <div>
+            <img src="https://1000marcas.net/wp-content/uploads/2020/01/logo-Subaru.png" width="100" height="100" /> 
+         </div>
+         <div class="row">
+             <h1 class="title">Delete Product</h1>            
+         </div>
+         <div class="row">
+             <textarea readonly>Product Name</textarea>
+         </div>
+         <div class="row">
+            <textarea readonly>Product Description</textarea>
+        </div>
+        <div class="row">
+            Why do you want to delete this product:
+            <select name="delProd" id="dP">
+                <option value="Provider">--Select Reason--</option>
+                <option value="Provider 1">Reason1</option>
+                <option value="Provider 2">Reason2</option>
+                <option value="Provider 3">Reason3</option>                
+            </select>
+            <div class="row">
+                <p> Enter your Password: <input type="password" placeholder="Enter your password"/> </p>
+            </div>
+            <div>
+                <button input type="button" onclick="alert('Product deleted')">Delete Product</button>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
