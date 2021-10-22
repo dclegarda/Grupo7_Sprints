@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEARCH</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='static/css/miEstilo.css')}}"/>
+</head>
+<body>
+    <form>
+        <div>
+            <img src="static/images/logo.png" width="100" height="100"/> 
+         </div>
+        <div class="title" value="SUBARU"> SUBARU </div>
+        <br>
+        <div class="subtitle" value="LOGIN"> LOGIN </div>
+        <br>
+        <div class="LoginForm">
+            <div class="row">
+                <div class="userID"> <input type="text" placeholder="Enter your ID"> </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="userPwd"> <input type="password" placeholder="Enter your Password"> </div>
+            </div>
+            <br>
+            <div class="row">
+                <select name="selectRole" id="selRol">
+                    <option value="Provider">--Select Your Role--</option>
+                    <option value="Provider 1">Final User</option>
+                    <option value="Provider 2">Administrator</option>
+                    <option value="Provider 3">Super Admin</option>
+                </select>
+            </div>
+            <br>
+            <div class="row">
+                <div class="c5">
+                    <button input type="button">Sign in</button>
+                </div>           
+            </div>
+            <br>
+            <div class="row">
+                <div>
+                    <button input type="button" id="B2" onclick="alert('Reset Password')"> Forgot Password </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
